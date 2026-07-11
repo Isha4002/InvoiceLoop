@@ -1,9 +1,5 @@
-function Customer() {
-  return (
-    <h1 className="text-4xl font-bold p-10">
-      Customer
-    </h1>
-  );
-}
+const Customers = () => {
+  return <h1 className="text-4xl p-10">Customers</h1>;
+};
 
-export default Customer;
+export default Customers;

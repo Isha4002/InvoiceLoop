@@ -1,9 +1,9 @@
-function Landing() {
+const Landing = () => {
   return (
-    <h1 className="text-4xl font-bold p-10">
-      Landing
-    </h1>
+    <div className="min-h-screen flex items-center justify-center text-5xl font-bold">
+      Landing Page
+    </div>
   );
-}
+};
 
 export default Landing;

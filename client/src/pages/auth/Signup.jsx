@@ -1,9 +1,5 @@
-function Signup() {
-  return (
-    <h1 className="text-4xl font-bold p-10">
-      Signup
-    </h1>
-  );
-}
+const Signup = () => {
+  return <h1 className="text-4xl p-10">Signup</h1>;
+};
 
 export default Signup;
